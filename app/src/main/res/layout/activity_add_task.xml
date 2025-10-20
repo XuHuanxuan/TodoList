@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/tab1_1">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_title"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_content"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/attachment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_attachments"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Due Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/end_date"
+            android:textSize="20sp"
+            android:textColor="@color/blue1"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/dueDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue1"
+            android:text="@string/select_date" />
+
+    </LinearLayout>
+
+    <!-- Importance -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/importance"
+            android:textSize="20sp"
+            android:textColor="@color/blue1"
+            android:layout_marginEnd="40dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerImportance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/importance_levels" />
+
+    </LinearLayout>
+
+
+    <!-- Category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="20sp"
+            android:textColor="@color/blue1"
+            android:layout_marginEnd="60dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/category_options" />
+
+    </LinearLayout>
+
+
+    <!-- Tags -->
+    <EditText
+        android:id="@+id/etTags"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/label"
+        android:textSize="20sp"/>
+
+    <!-- Is Completed -->
+    <CheckBox
+        android:id="@+id/checkIsCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/finshed"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/submitTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0088ff" />
+
+</LinearLayout>

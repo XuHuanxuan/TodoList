@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="importance_levels">
+        <item>小事</item>
+        <item>中等</item>
+        <item>重要</item>
+    </string-array>
+
+    <string-array name="category_options">
+        <item>工作</item>
+        <item>个人</item>
+        <item>购物</item>
+        <item>学习</item>
+    </string-array>
+</resources>

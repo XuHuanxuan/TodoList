@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">todolist</string>
+    <string name="app_home">主页</string>
+    <string name="app_calendar">日历</string>
+    <string name="app_ai">AI</string>
+    <string name="back">返回</string>
+    <string name="task_list_icon">任务列表图标</string>
+    <string name="all_task_list">所有任务</string>
+    <string name="add_task">新增任务</string>
+    <string name="edit_task">修改任务</string>
+    <string name="del_task">删除任务</string>
+    <string name="task_title">任务标题</string>
+    <string name="task_content">任务内容</string>
+    <string name="task_attachments">任务附件</string>
+    <string name="end_date">截止日期</string>
+    <string name="select_date">选择日期</string>
+    <string name="importance">重要性</string>
+    <string name="category">分类</string>
+    <string name="label">标签(用逗号分隔)</string>
+    <string name="finshed">已完成</string>
+    <string name="submit">提交</string>
+    <string name="attachment">附件</string>
+    <string name="isfinished">是否完成</string>
+    <string name="savechange">保存修改</string>
+    <string name="notset">未设置</string>
+</resources>
