@@ -1,7 +1,6 @@
 package com.xuhuanxuan.todolist.dataclass;
 
 import java.util.List;
-import java.util.Objects;
 
 public class Task {
     private final long id; // 主键ID
@@ -64,7 +63,4 @@ public class Task {
         return isCompleted;
     }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
 }
