@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
         // 设置初始 Fragment：应用启动默认展示首页
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new HomeFragment()).commit();
-
         loadFragment(new HomeFragment());
 
         bottomNavigationView.setOnNavigationItemSelectedListener(menuItem -> {
